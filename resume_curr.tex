@@ -1,0 +1,84 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Griffin Johnson}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{griffinpjohnson@gmail.com}
+ \moveleft.5\hoffset\centerline{San Luis Obispo, CA 93405}
+ \moveleft.5\hoffset\centerline{(425) 417 - 5098}
+
+\begin{resume}
+
+\section{OBJECTIVE}  Passionate Software Engineer with 4+ years programming experience driven to acquire a full-time position at Mindbody.
+
+\section{EDUCATION} {\sl Bachelor of Science,} Computer Science\\
+                      % \sl will be bold italic in New Century Schoolbook (or
+	              % any postscript font) and just slanted in
+		      %	Computer Modern (default) font
+                California Polytechnic State University, San Luis Obispo, CA,
+                Expected March 2020
+
+\section{COMPUTER \\ SKILLS} {\sl Languages \& Frameworks:} Java, C, C++, Kotlin,
+         Swift, Python, ML, React, MIPS, JavaScript \\
+                {\sl Major Courses:} Data Structures, Intro to Databases, Algorithm Analysis, Mobile Application Development, Computer Architecture, Advanced Rendering Techniques, Systems Programming, OS, Knowledge and Discovery from Data, Programming Languages
+
+
+\section{PROJECTS} {\sl Sensor Triggers Android App w/ Web App} - Kotlin, React \hfill Spring 2019
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Gathers contextual user information such as heart rate, location and weather from the user's device and Garmin smart watch.
+                \item   User information is synced with a cloud database solution (Firestore).
+                \item User data is displayed on an authenticated web app with location and heart rate overlayed on a map view.
+                \end{itemize}
+
+                {\sl Ray Tracer} - C++ \hfill            Spring 2018
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Able to parse and read in geometrically defined objects. The objects are then ray traced and a corresponding image is outputted.
+                 \item Implemented a soft shadows feature using area lights with adjustable sample size and light radius.
+                 \end{itemize}
+
+                {\sl Airport Model System} - Java, mySQL \hfill        Winter 2018
+                  \begin{itemize}
+                   \item Full GUI desktop software consisting of a Customer and Employee software management system needed for an airport.
+                   \item Implemented Purchase, Book, and Login modules.
+                   \end{itemize}
+
+                {\sl Photo Gallery iOS App} - Swift \hfill            Summer 2017
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Able to view device photos in a grid view.
+                 \item Used the iOS Core Image Framework to facilitate image manipulation filters such as exposure, contrast and sharpening.
+                 \end{itemize}
+
+
+
+
+\section{EMPLOYMENT} {\sl Frontend Web Developer} \hfill Fall 2017 - Present \\
+                SkinnyKitchen.com, San Luis Obispo, CA
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Manage and maintain website.
+                \item Accumulates 5,000+ page views/day.
+                \end{itemize}
+
+                {\sl CSC 436 Teaching Assistant} - Android, iOS \hfill Fall 2017 - Spring 2019 \\
+                California Polytechnic State University, San Luis Obispo, CA
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Mobile Application Development Course in both Android and iOS.
+                 \item Assisted students with lab assignments and assignment help.
+                \end{itemize}
+
+
+
+\end{resume}
+\end{document}
+
+
+
+
