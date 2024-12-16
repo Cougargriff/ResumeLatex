@@ -775,9 +775,9 @@
 \topmargin 0pt
 \headheight 0pt
 \headsep 0pt
-\textheight 9in
+\textheight 10.5in
 \parindent 0pt
-\topmargin 0in
+\topmargin -0.5in
 \oddsidemargin 0pt
 \evensidemargin 0pt
 \marginparwidth 0pt
